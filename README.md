@@ -8,6 +8,7 @@ The easiest way to test and run these scripts is through the Anaconda platform. 
 https://www.anaconda.com/
 
 To install the dependencies necessary, run the following commands from your command prompt: 
+
 ```pip install nltk```
 
 ```pip install wikipedia```
@@ -16,3 +17,4 @@ To install the dependencies necessary, run the following commands from your comm
 
 ```pip install ipynb```
 
+The script Classify.py represents the main functionality. It will, given a category and a search term, return the most likely title of a wikipedia page if the query is ambiguous.
